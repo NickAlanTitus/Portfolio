@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*background image of $50 bill*/
+body {
+  background-image: url("./benjamin.jpg");
+  background-size: 100%;
+}
+/*conainer with flexbox*/
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*box with flexbox*/
+#box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/*styling for the dollar sign*/
+p{
+  color: whitesmoke;
+  font-size: 8vw;
+}
+/*styling for clicker money counter*/
+#money{
+  height: 10%;
+  width: 75%;
+  background-color: transparent;
+  border: 0px solid;
+  color: whitesmoke;
+  font-size: 8vw;
+  text-align: center;
+}
+/*styling for gold bar*/
+#gold:active{
+  transform: translateY(3%);
+}
+/*styling for pics*/
+.coins{
+  width: 30%;
+  height: 10%;
+  margin: 1%;
+}
